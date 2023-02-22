@@ -8,14 +8,60 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-		<form>
+	<form>
 			<div>
 			<lable for="name">Name*</lable>
-			<input type="text" id="name" placehplder="enter your name">
+				<input type="text" id="name" placeholder="Enter your name" required>
 			</div>
+		    <br>
+		    <div>
+				<lable for="Email">Email*</lable>
+				<input type="Email" id ="email" placeholder="Enter Email" required>
+			</div>
+		    <br>
+		     <div>
+				 <label for="Gender" required>Gender*</label>
+				 <lable for="id1">
+				 <input type="radio" value="Male" name ="Gender"  id ="id1">Male</lable>
+				 <lable for="id2">
+				 <input type="radio" value ="Female" name ="Gender" id="id2">Female
+					 </lable>
+				 <lable for="id3">
+					 <input type="radio" value="other" name="Gender" id="id3">Other
+				 </lable>	 
+			 </div>
+		<br>
+		<div>
+			<Lable for="Laptop Brands">Laptop Brands</Lable>
+			<select>
+				<option value="Apple">Apple</option>
+				<option value="Asus">Asus</option>
+				<option value="HP">HP</option>
+			</select>
+		</div>
+		<br>
+		 <div>
+			 <lable for="Age">Age*</lable>
+				 <input type="number" value = "age" required >
+		 </div>
+		<br>
+		<div>
+			<lable for="DOB">DOB*</lable>
+			<input type="date" value="date of birth" required>
+		</div>
+		<br>
+		<div>
+			<lable for="password">Password*</lable>
+			<input type="password" value="password" required>
+		</div>
+		<br>
+		<div>
+				<input type="button" value="submit">
+		</div>
 			</form>
 			
+    <script type="text/javascript" src="./script.js">
+		
 			
 </script>
 
