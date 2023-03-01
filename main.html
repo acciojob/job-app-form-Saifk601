@@ -8,58 +8,45 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-		<form action="http://localhost:3000/__cypress/tests?p" method="get">
+		<form  method="get">
 			<div>
 			<lable for="name">Name*</lable>
-				<input type="text" id="name" placeholder="Enter your name" required>
+				<input type="text" id="name" required>
 			</div>
-		    <br>
 		    <div>
-				<lable for="Email">Email*</lable>
-				<input type="Email" id ="email" placeholder="Enter Email" required>
+				<lable for="email">Email*</lable>
+				<input type="email" id ="email" required>
 			</div>
-		    <br>
 		     <div>
-				 <label for="Gender" required>Gender*</label>
-				 <lable for="id1">
-				 <input type="radio" value="Male" name ="Gender"  id ="id1">Male</lable>
-				 <lable for="id2">
-				 <input type="radio" value ="Female" name ="Gender" id="id2">Female
-					 </lable>
-				 <lable for="id3">
-					 <input type="radio" value="other" name="Gender" id="id3">Other
-				 </lable>	 
+				 <label>Gender*</label>
+				 <input type="radio" value="Male" name ="Gender"  required
+				 <input type="radio" value ="Female" name ="Gender" required>
+ 
 			 </div>
-		<br>
+		
 		<div>
-			<Lable for="Laptop Brands">Laptop Brands</Lable>
-			
-				<option value="Apple">Apple</option>
-				<option value="Asus">Asus</option>
-				<option value="HP">HP</option>
-			
+			<Lable for="Laptop">Laptop Brands</Lable>
+			  <select>
+				  <option>Apple</option>
+				<option>Asus</option>
+				<option>HP</option>
+			  </select>
 		</div>
-		<br>
 		 <div>
-			 <lable for="Age">Age*</lable>
-				 <input type="number" value = "age" required >
+			 <lable for="age">Age*</lable>
+				 <input type="number" id ="age" required >
 		 </div>
-		<br>
+		
 		<div>
 			<lable for="DOB">DOB*</lable>
 			<input type="date" value="date of birth" required>
 		</div>
-		<br>
 		<div>
 			<lable for="password">Password*</lable>
-			<input type="password" value="password" required>
+			<input type="password" id="password" required>
 		</div>
-		<br>
-		<div>
-				<input type="button" value="submit">
-		</div>
-		<br>
-			<input type="url" placeholder="URL" required>
+		<input type="url" id="portfolio" required>
+		<input type="button" value="submit">
 			</form>
 			
     <script type="text/javascript" src="./script.js">
